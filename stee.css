@@ -1,0 +1,202 @@
+.header{
+    background-color: #252529;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.header-options{
+    font-size: 15px;
+    margin-top: 35px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+a:hover{
+    color: coral;
+    transition: background-color ease 0.3s;
+    cursor: pointer;
+}
+.headings{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    text-indent: -20px;
+    padding-left: 20px;
+    font-size: 19px;
+}
+.whole_pictures{
+    width: 50%;
+    height: 50%;
+}
+.button{
+    /*background-color: coral;*/
+    /*border: none;*/
+    /*color: white;*/
+    /*border-radius: 5px;*/
+    /*margin-top: 50px;*/
+    /*font-size: 16px;*/
+    /*cursor: pointer;*/
+    /*transition: background-color 0.3s ease;*/
+    /*width: 100%;*/
+    background-color: orangered;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 90%;
+    margin: 30px;
+}
+.activity-display {
+    background-color: #ffffff;
+    width: 50%;
+    max-width: 700px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-height: 70%;
+    display: grid;
+    grid-template-columns: 100%;
+    /*padding-left: 60px;*/
+    padding: 60px;
+}
+.testimonial-container{
+    background-color: #ffffff;
+    width: 50%;
+    max-width: 700px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-height: 20%;
+    display: grid;
+    grid-template-columns: 100%;
+}
+.contact-container{
+    background-color: #ffffff;
+    width: 200%;
+    max-width: 900px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+footer{
+    background-color: #2b2828;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    width: 700%;
+    height: 50%;
+}
+.contact-button{
+    background-color: orangered;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    width: 15%;
+    height: 40px;
+    margin-top: 10px;
+}
+.input-group{
+    margin-bottom: 20px;
+
+}
+.contact-container input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    outline: none;
+    font-size: 16px;
+}
+table{
+    width: 200%;
+    border-collapse: collapse;
+    height: 100px;
+}
+th{
+    border: 1px solid dimgray;
+    background-color: #000000;
+    color: #ffffff;
+    margin: 60px;
+}
+td{
+    border: 1px solid dimgray;
+    margin: 60px;
+    font-weight: 2px;
+    color: #3a3636;
+}
+.testimonials{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    padding-left: 60px;
+}
+.name{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.gallery-image{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+}
+.activity{
+    display: grid;
+    margin: 40px;
+    padding: 40px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5%;
+    align-items: center;
+    justify-content: center;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.writeup-heading{
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.activity-images{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.write-up{
+    display: flex;
+    justify-content: center;
+    /*text-indent: 50%;*/
+    align-items: center;
+    margin-left: 30px;
+}
+h1{
+    /*display: flex;*/
+    /*flex-direction: column;*/
+}
+body {
+    background-color: #f0f2f5;
+}
